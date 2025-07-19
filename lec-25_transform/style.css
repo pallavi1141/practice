@@ -1,0 +1,50 @@
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: auto;
+    transition: all 3s linear;
+
+
+}
+.box:hover{
+    /* transform: rotate(180deg) ; */
+
+    /* transform: scale(2); */
+    /* transform: scale(-2); */
+    /* transform: scale(0.5); */
+    /* scale property size increase  and decrease here  */
+
+    /* transform: skew(45deg); */
+    /* transform: skew(-90deg); */
+    /* transform: skewX(45deg); */
+    /* transform: skewY(45deg); */
+
+    /* transform: translate(500px); */
+    /* for x axis  */
+    /* transform: translate(0px, 300px ); */
+    /* for y axis  */
+    transform: translate(200px, 300px );
+
+
+}
+p{
+    font-size: 25px;
+
+
+}
